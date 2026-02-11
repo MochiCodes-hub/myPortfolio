@@ -60,11 +60,13 @@ function typeCode(text, element) {
 // 3. Project List Rendering
 const projectsData = [
     { 
-        title: "Website Redesign for ABC Corp", 
-        category: "Web Design",
-        description: "The revamped website design resulting in a remarkable 40% surge in online orders.",
-        img: "assets/Candytimesaga.jpg" 
+        title: "CyberShield: Gamified E-Learning", 
+        category: "Web System",
+        description: "A containerized Capture-the-Flag (CTF) platform featuring Docker-based challenges, progress tracking, and an embedded webshell to enhance cybersecurity awareness.",
+        img: "assets/cybershield.jpg" 
     },
+
+    
     
 ];
 
@@ -93,7 +95,7 @@ function renderProjects() {
                                 <polyline points="12 5 19 12 12 19"></polyline>
                             </svg>
                         </div>
-                        <span style="color: white; font-weight: 700; font-size: 0.8rem; text-transform: uppercase;">View Case Study</span>
+                        <span style="color: white; font-weight: 700; font-size: 0.8rem; text-transform: uppercase;">View Repository</span>
                     </a>
                 </div>
             </div>
